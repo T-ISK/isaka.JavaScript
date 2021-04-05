@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body {
+    /* margin: auto;
+    text-align: center; */
+    background: #b673a2;
+    background-image: url(./images/background2.png);
+    background-size: 280px;
+    background-repeat: no-repeat;
+    background-position: 50% 58%;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+table {
+    margin: 3px auto;
+}
+h1 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+h1, tr {
+    text-align: center;
+    color: rgb(31, 27, 25);
+}
+
+th {
+    width: 150px;
+}
+
+.judge {
+    height: 30px;
+}
+
+.choice {
+    height: 200px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+}
+#youChoice {
+    width: 100px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+#cpuChoice {
+    width: 100px;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+aside {
+    text-align: center;
+}
+aside input {
+    width: 70px;
+    border-radius: 50%;
+    margin: 10px 10px 10px 10px;
+}
+aside input:hover {
+    opacity: 0.7;
+}
+.btn {
+    display: flex;
+}
+#start {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+#reset {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: auto;
+}
