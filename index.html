@@ -1,0 +1,54 @@
+<!-- JS課題用　仕様書も作成する。発表日は３月３１日＆４月１日 -->
+<!-- http://mylabo/~901/ -->
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>テンプレート</title>
+        <link href="../../_common/images/favicon.ico" rel="shortcut icon">
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:400,500" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>じゃんけん</h1>
+        </header>
+        <main>
+            <table>
+                <tr>
+                    <th>You</th>
+                    <th>Computer</th>
+                </tr>
+                <tr>
+                    <td id="youScore">0</td>
+                    <td id="cpuScore">0</td>
+                </tr>
+                <tr class="judge">
+                    <td id="youJudge"></td>
+                    <td id="cpuJudge"></td>
+                </tr>
+            </table>
+            <div class="choice">
+                <img id="youChoice" src="./images/computer2.png" alt="">
+                <img id="cpuChoice" src="./images/Marx.png" alt="">
+            </div>
+        </main>
+        <aside>
+            <form action="" id="userClick"></form>
+                <input name="click" id="rock" type="image" src="./images/rockYou.png" value="rock">
+                <input name="click" id="scissors" type="image" src="./images/scissorYou.png" value="scissors">
+                <input name="click" id="paper" type="image" src="./images/paperYou.png" value="paper">
+            </form>
+            <div class="btn">
+                <button id="start">START</button>
+                <button id="reset">RESET</button>
+            </div>
+        </aside>
+
+        <script src="./js/script.js">
+        </script>
+    </body>
+</html>
